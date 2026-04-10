@@ -13,9 +13,24 @@ To support operational planning by identifying peak visitation periods, high-usa
 
 ---
 
-##  Data
-- Multiple monthly White House visitor log datasets
-- Combined dataset (~392,000 records)
+# Dataset Information
+
+## Source
+White House Visitor Logs (public government dataset)
+
+## Description
+This project uses multiple monthly visitor log datasets combined into a single dataset (~392,000 records).
+
+## Access
+Due to file size limitations, the dataset is not included in this repository.
+
+You can access the data from:
+https://open.whitehouse.gov
+
+## Notes
+- Data was cleaned, merged, and standardized across multiple files
+- Datetime fields were parsed and transformed for analysis
+- No personally identifiable information is used in this project
 
 ---
 
